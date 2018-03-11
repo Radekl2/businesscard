@@ -9,20 +9,21 @@
     <author href="http://mypersonalwebsite.com" email="johnbrown@gmail.com">
 		Johny Brawo
 	</author>
-	<preference name="SplashScreen" value="screen" />
-    <preference name="SplashScreenDelay" value="3000" />
+
+
 	<platform name="android">
 		<icon src="www/img/icon.png" width="180" height="180" />
-		<splash density="land-ldpi" src="www/img/drawable-land-ldpi-screen.png" />
-        <splash density="land-mdpi" src="www/img/drawable-land-mdpi-screen.png" />
-        <splash density="land-hdpi" src="www/img/drawable-land-hdpi-screen.png" />
-        <splash density="port-ldpi" src="www/img/drawable-port-ldpi-screen.png" />
-        <splash density="port-mdpi" src="www/img/drawable-port-mdpi-screen.png" />
-        <splash density="port-hdpi" src="www/img/drawable-port-hdpi-screen.png" />
+		<splash density="land-ldpi" src="res/screen/android/drawable-land-ldpi-screen.png" />
+        <splash density="land-mdpi" src="res/screen/android/drawable-land-mdpi-screen.png" />
+        <splash density="land-hdpi" src="res/screen/android/drawable-land-hdpi-screen.png" />
+        <splash density="port-ldpi" src="res/screen/android/drawable-port-ldpi-screen.png" />
+        <splash density="port-mdpi" src="res/screen/android/drawable-port-mdpi-screen.png" />
+        <splash density="port-hdpi" src="res/screen/android/drawable-port-hdpi-screen.png" />
 	</platform>
 
 	
-	<plugin name="cordova-plugin-splashscreen" spec="~3.2.1" />
+	<preference name="SplashScreenDelay" value="5000" />
+	<plugin name="cordova-plugin-splashscreen" spec="5.0.2" />
 	<plugin name="cordova-plugin-device" spec="2.0.1" />
 	<plugin name="cordova-plugin-dialogs" spec="2.0.1" />
 
