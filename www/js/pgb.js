@@ -4,7 +4,6 @@ function init() {
 }
 
 function onDeviceReady() {
-	navigator.splashscreen.show();
 	navigator.notification.beep(1);
 }
 
