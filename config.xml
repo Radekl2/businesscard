@@ -11,9 +11,12 @@
 	</author>
 	<platform name="android">
 		<icon src="www/img/icon.png" width="180" height="180" />
-		<splash src="www/img/ldg" />
+		<splash src="www/img/ldg.png" density="land-hdpi" />
 	</platform>
 	
+	<preferences name ="SplashScreenDelay" value="10000" />
+	
+	<plugin name="cordova-plugin-splashscreen" />
 	<plugin name="cordova-plugin-device" spec="2.0.1" />
 	<plugin name="cordova-plugin-dialogs" spec="2.0.1" />
 
