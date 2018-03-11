@@ -13,7 +13,7 @@
 		<icon src="www/img/icon.png" width="180" height="180" />
 		<splash src="www/img/ldg.png" density="land-hdpi" />
 	</platform>
-	
+	<splash src="splash.png" />
 	<preferences name ="SplashScreenDelay" value="10000" />
 	
 	<plugin name="cordova-plugin-splashscreen" />
