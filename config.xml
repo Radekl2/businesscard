@@ -9,6 +9,8 @@
     <author href="http://mypersonalwebsite.com" email="johnbrown@gmail.com">
 		Johny Brawo
 	</author>
+	<preference name="SplashScreen" value="screen" />
+    <preference name="SplashScreenDelay" value="3000" />
 	<platform name="android">
 		<icon src="www/img/icon.png" width="180" height="180" />
 		<splash density="land-ldpi" src="www/img/drawable-land-ldpi-screen.png" />
