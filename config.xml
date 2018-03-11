@@ -11,10 +11,14 @@
 	</author>
 	<platform name="android">
 		<icon src="www/img/icon.png" width="180" height="180" />
-		<splash src="www/img/ldg.png" density="land-hdpi" />
+		<splash src="www/img/ldg.png"/>
 	</platform>
 	<splash src="splash.png" />
-	<preferences name ="SplashScreenDelay" value="10000" />
+	<preferences name ="SplashScreenDelay" value="5000" />
+	<preferences name ="orientation" value="portrait" />
+	<preferences name ="KeepRunning" value="false" />
+	<preferences name ="SplashScreen" value="screen" />
+	
 	
 	<plugin name="cordova-plugin-splashscreen" />
 	<plugin name="cordova-plugin-device" spec="2.0.1" />
