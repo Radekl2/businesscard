@@ -11,7 +11,7 @@
 	</author>
 	<platform name="android">
 		<icon src="www/img/icon.png" width="180" height="180" />
-		<splash src="www/img/ldg" qualifier="land-1dpi"/>
+		<splash src="www/img/ldg.png"/>
 	</platform>
 	
 	<plugin name="cordova-plugin-device" spec="2.0.1" />
