@@ -9,7 +9,10 @@
     <author href="http://mypersonalwebsite.com" email="johnbrown@gmail.com">
 		Johny Brawo
 	</author>
-	<platform name="android" />
+	<platform name="android">
+		<icon src="www/img/icon.png" width="180" height="180" />
+		<splash src="www/img/ldg.png" />
+	</platform>
 	
 	<plugin name="cordova-plugin-device" spec="2.0.1" />
 	<plugin name="cordova-plugin-dialogs" spec="2.0.1" />
