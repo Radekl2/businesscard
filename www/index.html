@@ -1,13 +1,21 @@
 <!DOCTYPE html>
 <html>
 	<head>
+	<script type="text/javascript">
+      /**
+       * Delay for a number of milliseconds
+       */
+      function sleep(delay) {
+        var start = new Date().getTime();
+        while (new Date().getTime() < start + delay);
+      }
+	  
+	  sleep(5000)
+    </script>
 		<meta http-equiv="Content-type" content="text/html; charset=utf-8">
 		<link rel="stylesheet" type="text/css" href="css/style.css">
 		<script src="js/pgb.js"></script>
 		<script src="cordova.js"></script>
-		<platform name="android">
-			<icon src="img/icon" width="180" height="180" />
-		</platform>
 	</head>
 	<body onload="init()">
 		<h1>Business Card</h1>
