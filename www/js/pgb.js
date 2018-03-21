@@ -4,6 +4,6 @@ function init() {
 }
 
 function onDeviceReady() {
-	navigator.splashscreen.show();
+	//navigator.splashscreen.show();
 }
 
